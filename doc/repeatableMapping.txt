@@ -203,6 +203,11 @@ IDEAS						     *repeatableMapping-ideas*
 ==============================================================================
 HISTORY						   *repeatableMapping-history*
 
+2.01	19-Nov-2014
+- BUG: Typo in repeatableMapping#makePlugMappingCrossRepeatable() causes
+  "E116: Invalid arguments for function call", which unfortunately usually is
+  suppressed by the :silent! invocation.
+
 2.00	22-Nov-2013
 - ENH: Enable cross-repeat for existing <Plug>-mappings (as provided by
   plugins), too. The new functions parallel to the existing ones are
@@ -241,7 +246,7 @@ First version.
 Started development.
 
 ==============================================================================
-Copyright: (C) 2008-2013 Ingo Karkat
+Copyright: (C) 2008-2014 Ingo Karkat
 The VIM LICENSE applies to this plugin; see |copyright|.
 
 Maintainer:	Ingo Karkat <ingo@karkat.de>
